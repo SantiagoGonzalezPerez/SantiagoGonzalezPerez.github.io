@@ -1,0 +1,409 @@
+body {
+    margin: 0;
+}
+
+
+
+/*Menú de navegación*/
+.navbar {
+    background-color: #DDDDDD; 
+    overflow: hidden; 
+    max-width: 960px; 
+    margin-top: 4rem;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+.navbar li a {
+    display: block; 
+    color: black; 
+    font-family: Menlo; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+    transition: background-color 0.3s; 
+}
+
+.navbar li a:hover {
+    background-color: #285835;
+    color: white; 
+}
+
+.navbar li a.active {
+    background-color: #285835; 
+    color: white; 
+}
+
+.empujar-derecha {
+    margin-left: auto; 
+}
+
+
+
+/*Index*/
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.perfil h1 {
+    font-family: "Donegal One", serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+    color: #285835;
+    margin: 0;
+}
+
+.perfil p {
+    font-family: "Newsreader", serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.textos-sobremi {
+    max-width: 960px;
+    margin: 2rem auto;
+}
+
+.actualidad-textos-sobremi h2 {
+    text-align: left;
+    font-family: "Donegal One", serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+    color: #285835;
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #285835;
+}
+
+.actualidad-textos-sobremi p {
+    text-align: left;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+.background-textos-sobremi h2 {
+    text-align: left;
+    font-family: "Donegal One", serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+    color: #285835;
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #285835;
+}
+
+.background-textos-sobremi p {
+    text-align: left;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+.texto-resaltado {
+    color: #285835;
+    font-weight: bold;
+}
+
+.texto-resaltado a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.texto-resaltado a:hover {
+    text-decoration: none;
+}
+
+.tecnologias-textos-sobremi h2 {
+    text-align: left;
+    font-family: "Donegal One", serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+    color: #285835;
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #285835;
+}
+
+.tecnologias-textos-sobremi p {
+    text-align: left;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+.servicios-textos-sobremi h2 {
+    text-align: left;
+    font-family: "Donegal One", serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+    color: #285835;
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #285835;
+}
+
+.servicios-textos-sobremi p {
+    text-align: left;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+    /* Cinta de tecnologías */
+.cinta-tecnologias {
+    overflow: hidden;
+    padding: 20px 0;
+    background-color: white;
+    white-space: nowrap;
+    position: relative;
+    margin-top: 1.2rem;
+}
+
+.cinta-tecnologias:before,
+.cinta-tecnologias:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    z-index: 2;
+}
+
+.cinta-tecnologias:before {
+    left: 0;
+    background: linear-gradient(to right, white, rgba(255,255,255,0));
+}
+
+.cinta-tecnologias:after {
+    right: 0;
+    background: linear-gradient(to left, white, rgba(255,255,255,0));
+}
+
+.cinta-logos {
+    display: inline-block;
+    animation: scroll 40s linear infinite;
+}
+
+.cinta-logos img {
+    height: 50px;
+    margin: 0 40px;
+    vertical-align: middle;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+
+
+/*Academico*/
+.seccion-contenido {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.seccion-contenido h2 {
+    text-align: center;
+    font-family: "Donegal One", serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+    color: #285835; 
+    margin-bottom: 1rem;
+}
+
+.encabezado-flexible {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+.icono-encabezado {
+    height: 2.7rem; 
+    width: auto;    
+}
+
+.texto-adicional-encabezado {
+    font-size: 1.2rem;
+    color: #285835;
+    margin: 0;
+    position: relative;
+    top: -0.2em;
+}
+
+#palabra-rotativa {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.texto-adicional-encabezado a {
+    color: inherit;
+    text-decoration: underline;
+    transition: text-decoration 0.3s;
+}
+
+.texto-adicional-encabezado a:hover {
+    text-decoration: underline;
+}
+
+#palabra-rotativa.fade-out {
+    opacity: 0;
+}
+
+.descripcion-seccion {
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.subdescripcion-seccion {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-top: 0.25rem;
+    margin-left: 2rem;
+}
+
+.separador-simbolo {
+    max-width: 560px;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 4rem;
+    color: black;
+}
+
+
+
+/*Lecturas*/
+.lecturas-seccion-texto {
+    max-width: 960px;
+    margin: 2rem auto;
+}
+
+.texto-lecturas {
+    text-align: left;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 1.2rem;
+}
+
+.lecturas-seccion-libros {
+    max-width: 960px;
+    margin: 2rem auto; 
+    text-align: center;
+}
+
+.libro {
+    display: inline-flex; 
+    align-items: flex-start; 
+    gap: 3rem; 
+    text-align: left; 
+    margin-bottom: 1.5rem;
+}
+
+.portada-libro {
+    max-width: 115px; 
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.portada-libro:hover {
+    transform: scale(1.1);
+}
+
+.libro-info {
+    font-size: 1.1rem;
+}
+
+.titulo-libro {
+    color: #285835;
+    font-family: "Newsreader", serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.informacion-libro {
+    font-family: "Newsreader", serif;
+}
+
+.lectura-libro {
+    font-family: "Newsreader", serif;
+}
+
+.libro-info code {
+    background-color: #F8F8F8;
+    border: 1px solid #c7c5c5;
+    border-radius: 4px;
+    padding: 3px 6px;
+    margin-right: 5px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.separador-libro {
+    width: 70%; 
+    margin: 0 auto 1.5rem auto; 
+    border: none; 
+    height: 1px;  
+    background-color: #c7c5c5;
+}
+
+
+
+/*Blog*/
+.imagentemporal-blog {
+    max-width: 27%;
+    display: block;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.mensajetemporal-blog {
+    text-align: center;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+
+
+/*Footer*/
+footer {
+    text-align: center;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    font-family: 'Newsreader', serif;
+    font-size: 1.1rem;
+}
+
+footer a {
+    color: #285835;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: none;
+}

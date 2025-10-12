@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Santiago González Pérez RSS</title>
+        <link>https://tu-nombre-de-usuario.github.io</link> <!-- ¡IMPORTANTE! Cambia esto por la URL de tu sitio web -->
+        <description>Página web personal de Santiago González Pérez. Un registro de lecturas, artículos académicos y más.</description>
+        <language>es-es</language>
+        <lastBuildDate>Tue, 23 Jan 2024 10:00:00 GMT</lastBuildDate> <!-- Fecha de la última actualización de este archivo RSS -->
+        <pubDate>Tue, 23 Jan 2024 10:00:00 GMT</pubDate> <!-- Fecha de publicación del canal RSS -->
+        <generator>Manual RSS Generator</generator>
+    </channel>
+</rss>
