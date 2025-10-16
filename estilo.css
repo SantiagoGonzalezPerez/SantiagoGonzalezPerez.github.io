@@ -117,6 +117,65 @@ body {
     margin-top: 0.5rem;
 }
 
+.proyectos-textos-sobremi h2 {
+    text-align: left;
+    font-family: "Donegal One", serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+    color: #285835;
+    margin-bottom: 0.2rem;
+    display: inline-block;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #285835;
+}
+
+.proyectos-textos-sobremi p {
+    text-align: left;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+.proyectos {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.imagen-proyectos {
+    max-width: 200px;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-proyectos:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.encabezado-proyectos {
+    font-family: "Read Hat Text", sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #285835;
+    margin: 0;
+    text-decoration: dotted underline;
+}
+
+.parrafo-proyectos {
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 1.1rem;
+    margin: 0.25rem 0 0 0;
+}
+
+.encabezado-proyectos a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .texto-resaltado {
     color: #285835;
     font-weight: bold;
