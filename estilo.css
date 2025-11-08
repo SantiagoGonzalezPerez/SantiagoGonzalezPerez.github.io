@@ -389,6 +389,10 @@ body {
     transition: transform 0.3s ease;
 }
 
+#libroancho {
+    max-width: 175px;
+}
+
 .portada-libro:hover {
     transform: scale(1.1);
 }
