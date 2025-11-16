@@ -2,16 +2,18 @@ body {
     margin: 0;
 }
 
-
+main {
+    overflow-x: hidden;
+}
 
 /*Menú de navegación*/
 .navbar {
     background-color: #DDDDDD; 
     overflow: hidden; 
     max-width: 960px; 
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 4rem;
-    margin-left: auto; 
-    margin-right: auto; 
 }
 
 .navbar ul {
@@ -45,7 +47,61 @@ body {
     margin-left: auto; 
 }
 
+.menu-hamburguesa {
+    margin-top: 0 !important;
+    display: none; /* Oculto por defecto en pantallas grandes */
+}
 
+/* Estilos para el menú responsive (móvil) */
+@media screen and (max-width: 475px) {
+    .navbar {
+        margin-top: 0;
+        width: 100%;
+        max-width: none;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        position: relative;
+    }
+
+    /* Ocultamos todos los enlaces del menú por defecto en móvil */
+    .navbar ul li:not(.menu-hamburguesa) {
+        display: none;
+    }
+
+    /* Mostramos el botón de hamburguesa y hacemos que ocupe todo el ancho */
+    .navbar ul li.menu-hamburguesa {
+        display: block;
+        width: 100%;
+        background-color: #285835; /* Color de fondo verde */
+    }
+
+    .navbar ul li.menu-hamburguesa a {
+        font-size: 1.6rem; /* Aumenta el tamaño del icono */
+        padding-top: 8px; /* Ajusta el padding para centrarlo verticalmente */
+        padding-bottom: 8px;
+        color: white; /* Cambia el color del icono a blanco */
+    }
+
+    /* Cuando el menú tiene la clase .responsive (añadida con JS) */
+    .navbar ul.responsive {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Mostramos todos los enlaces */
+    .navbar ul.responsive li {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    /* Quitamos el margen que empujaba los últimos elementos a la derecha */
+    .navbar ul.responsive li.empujar-derecha {
+        margin-left: 0;
+    }
+}
 
 /*Index*/
 .perfil {
