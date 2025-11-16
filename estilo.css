@@ -370,7 +370,7 @@ body {
 }
 
 .lecturas-seccion-libros {
-    max-width: 960px;
+    max-width: 800px;
     margin: 2rem auto; 
     text-align: center;
 }
@@ -383,13 +383,18 @@ body {
     margin-bottom: 1.5rem;
 }
 
+#libroancho {
+    gap: 1rem;
+}
+
 .portada-libro {
+    flex-shrink: 0;
     max-width: 115px; 
     height: auto;
     transition: transform 0.3s ease;
 }
 
-#libroancho {
+#portadaancho {
     max-width: 175px;
 }
 
@@ -399,6 +404,8 @@ body {
 
 .libro-info {
     font-size: 1.1rem;
+    flex-grow: 1;
+    min-width: 0;
 }
 
 .titulo-libro {
@@ -406,6 +413,7 @@ body {
     font-family: "Newsreader", serif;
     font-weight: 600;
     font-size: 1.3rem;
+    max-width: 20rem;
 }
 
 .informacion-libro {
