@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deploy de prototipo de app en móvil"
-date: 2024-05-15 10:00:00 -0600
+date: 2025-12-15 00:00:00 -0600
 excerpt: "Primera toma de contacto con el desarrollo de apps móviles; desarrollo de un prototipo inicial y visualización en un dispositivo móvil real."
 ---
 
