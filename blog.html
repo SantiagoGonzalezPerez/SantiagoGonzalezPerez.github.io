@@ -4,14 +4,19 @@ title: Blog
 description: "Página 'Blog' del sitio web personal de Santiago González Pérez, donde subo entradas sobre aspectos de proyectos que estoy realizando, materias/temas que me interesan o estudio..."
 ---
 
+<link href="https://fonts.googleapis.com/css2?family=Donegal+One&display=swap" rel="stylesheet">
+
+
 <style>
 .main-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 960px;
     margin: 2rem auto;
 }
 
 .encabezado-blog {
-    text-align: center;
     font-family: "Donegal One", serif;
     font-weight: 400;
     font-size: 2.8rem;
@@ -28,6 +33,10 @@ description: "Página 'Blog' del sitio web personal de Santiago González Pérez
 .blog-title-icon {
     width: 50px; /* Ajusta el tamaño del icono según necesites */
     height: 50px;
+}
+
+.post-list {
+    width: 100%; /* Asegura que la lista ocupe todo el ancho del contenedor */
 }
 </style>
 
