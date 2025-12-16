@@ -507,32 +507,6 @@ main {
 
 
 /*Blog*/
-.main-blog {
-    max-width: 960px;
-    margin: 2rem auto;
-}
-
-.main-blog > h1 {
-    text-align: center;
-    font-family: "Donegal One", serif;
-    font-weight: 400;
-    font-size: 2.3rem;
-    color: #285835; 
-    margin-bottom: 1rem;
-}
-
-.blog-title-container {
-    display: flex;
-    align-items: center;
-    gap: 15px; /* Ajusta el espacio entre la imagen y el texto */
-}
-
-.blog-title-icon {
-    width: 50px; /* Ajusta el tamaño del icono según necesites */
-    height: 50px;
-}
-
-
 .post-list {
     list-style: none;
     padding: 0;
