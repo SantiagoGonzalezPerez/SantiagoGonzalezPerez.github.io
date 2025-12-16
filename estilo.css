@@ -521,6 +521,18 @@ main {
     margin-bottom: 1rem;
 }
 
+.blog-title-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Ajusta el espacio entre la imagen y el texto */
+}
+
+.blog-title-icon {
+    width: 50px; /* Ajusta el tamaño del icono según necesites */
+    height: 50px;
+}
+
+
 .post-list {
     list-style: none;
     padding: 0;

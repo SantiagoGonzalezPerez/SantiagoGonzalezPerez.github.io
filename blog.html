@@ -20,7 +20,10 @@ description: "Página 'Blog' del sitio web personal de Santiago González Pérez
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
 </head>
 <div class="main-blog">
-    <h1>Entradas:</h1>
+    <div class="blog-title-container">
+        <img src="buho.png" alt="Icono del blog" class="blog-title-icon">
+        <h1>Entradas:</h1>
+    </div>
 
     <ul class="post-list">
         {% for post in site.posts %}
