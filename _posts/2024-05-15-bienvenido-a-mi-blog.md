@@ -36,6 +36,7 @@ excerpt: "Primera toma de contacto con el desarrollo de apps móviles; desarroll
         height: auto;
     }
 </style>
+
 La idea de desarrollar una aplicación de móvil siempre ha rondado mi cabeza y, por mucho que tuviera el proyecto de realizarla anotado, jamás me puse a ello, al menos hasta ahora. Siendo plenamente consciente de mi falta de conocimientos y experiencia en este sentido, resolví aprovechar los avances de la IA en materia de *coding* para poder emprender de una vez por todas el proyecto. Tras la identificación de los principales agentes de IA e informarme sobre *vibe coding* me decidí por usar **Claude**.
 
 ## Sobre Claude
