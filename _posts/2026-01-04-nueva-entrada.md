@@ -43,7 +43,7 @@ Tal y como escribí en la <a href="https://santiagogonzalezperez.github.io/2025/
 
 Para poder desarrollar la APK propiamente dicha era necesario generar previamente una *build* de desarrollo, siendo esta una versión compilada y ejecutable del código fuente de la app, creada para la realización de pruebas, introducción de modificaciones, verificación y depuración de flujos de funciones... Hasta el momento no existía una *build* de desarrollo al uso dado que la integridad del código era ejecutado vía terminal para poder ser visualizado y usado. Esta circunstancia, razón de la existencia de la presente entrada, constituía un gran problema en lo que respecta al desarrollo y ejecución de la app dado que hacía depender esta al 100% del ordenador, la máquina con la terminal desde la que introducía los comandos para generar el código QR y ejecutar y visualizar la app usando **Expo Go**.
 
-<img src="/assets/images/appavanzada.png.png" class="imagen" alt="Vista de una versión de la aplicación más avanzada"/>
+<img src="/assets/images/appavanzada.png" class="imagen" alt="Vista de una versión de la aplicación más avanzada"/>
 
 Dado que usaba la aplicación anteriormente mencionada para ejecutar y visualizar mi app, **Claude** me recomendó generar un **EAS (Expo Application Services) build** como base de la *build* de proyecto: un conjunto de servicios en la nube de **Expo** que permite la compilación de código sin necesidad de tener instalado localmente **Android Studio** o similares. Para ello el primer paso consistía en instalar **EAS CLI** vía terminal con la siguiente secuencia de comandos:
 
@@ -75,5 +75,5 @@ Como resultado obtuve la **APK** de mi proyecto de aplicación, la cual instalé
 
 <div class="imagenes">
     <img src="/assets/images/apkinstalada.png" class="pantalla" alt="Vista de la app instalada en mi móvil"/>
-    <img src="/assets/images/vistaappteresa.jpeg" class="pantalla" alt="Vista de la app ejecutada en otro móvil"/>
+    <img src="/assets/images/vistappteresa.png" class="pantalla" alt="Vista de la app ejecutada en otro móvil"/>
 </div>
