@@ -425,6 +425,11 @@ main {
     margin: 2rem auto;
 }
 
+.letra {
+    width: 60px;
+    height: auto;
+}
+
 .texto-lecturas {
     text-align: left;
     font-family: 'Red Hat Text', sans-serif;
