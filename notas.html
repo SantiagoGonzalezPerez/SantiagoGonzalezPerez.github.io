@@ -46,11 +46,27 @@
         </section>
         <section class="lecturas-seccion-texto">
             <div style="border-bottom: 2px solid #285835; padding-bottom: 5px;">
+                <img class="letra" src="assets/images/c.png" alt="Descripción de la imagen" style="display: block;">
+            </div>
+            <p class="texto-lecturas"><strong>Crisografía:</strong> escritura en oro.</p>
+        </section>
+        <section class="lecturas-seccion-texto">
+            <div style="border-bottom: 2px solid #285835; padding-bottom: 5px;">
                 <img class="letra" src="assets/images/n.png" alt="Descripción de la imagen" style="display: block;">
             </div>
             <p class="texto-lecturas"><strong>Nomparela:</strong> en impresión, tipo más pequeño que se fundía.</p>
         </section>
     </main>
 
+    <script>
+        function toggleMenu() {
+            var links = document.getElementById("menu-links");
+            if (links.className === "") {
+                links.className += "responsive";
+            } else {
+                links.className = "";
+            }
+        }
+    </script>
 </body>
 </html>
