@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mi rutina como bibliotecario"
-date: 2026-02-09 00:00:00 -0600
+date: 2026-03-14 00:00:00 -0600
 excerpt: "Comentario del proceso técnico que llevo a cabo en la biblioteca donde trabajo."
 ---
 
@@ -11,8 +11,8 @@ excerpt: "Comentario del proceso técnico que llevo a cabo en la biblioteca dond
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 75%;
-        height: 75%;
+        width: 50%;
+        height: 50%;
     }
 
     .imagen2 {
@@ -43,9 +43,10 @@ Hace ya más de 1 mes que ejerzo como bibliotecario del **Instituto Teológico d
 
 ## La biblioteca del ITM
 
-Ubicada en el **Instituto Teológico de Murcia**, edificio anexo (por la fachada oeste) al campus de la Merced de la **Universidad de Murcia (UMU)**, se trata de una biblioteca especializada que da soporte educativo y de investigación al profesorado y alumnado del Instituto. Dada la entidad a la que está vinculada, su colección se especializa en teología y temas afines, contando con una gran cantidad de obras que versan sobre franciscanismo (corriente y orden a la que pertenece el propio Instituto), historia de la religión, marianismo, textos sagrados, educación, arte religioso, etcétera. Casi la totalidad de su colección está compuesta por materiales bibliográficos, de los cuales gozan de una mayor representación las monografías, publicaciones periódicas y, sobre todo, obras de referencias tales como diccionarios, enciclopedias o glosarios. Pese a su especialización temática también hay presencia de obras de la literatura universal, historia no religiosa, psicología, etcétera.
+Ubicada en el **Instituto Teológico de Murcia**, edificio anexo (por la fachada oeste) al campus de la Merced de la **Universidad de Murcia (UMU)**, se trata de una biblioteca especializada que da soporte educativo y de investigación al profesorado y alumnado del Instituto.<br>
+Dada la entidad a la que pertenece, su colección se especializa en teología y temas afines, contando con una gran cantidad de obras que versan sobre franciscanismo (corriente y orden a la que pertenece el propio Instituto), historia de la religión, marianismo, textos sagrados, educación, arte religioso, etcétera. Casi la totalidad de su colección está compuesta por materiales bibliográficos, los cuales gozan de una mayor representación las monografías, publicaciones periódicas y, sobre todo, obras de referencias tales como diccionarios, enciclopedias o glosarios. Pese a su especialización temática también hay presencia de obras de la literatura universal, historia no religiosa, psicología, partituras, etcétera.
 
-<img src="/assets/images/enciclopedia.jpeg" class="imagen" alt="Vista de enciclopedias expuestas en la sala de lectura de la biblioteca del ITM"/>
+<img src="/assets/images/enciclopedia.jpeg" class="imagen2" alt="Vista de enciclopedias expuestas en la sala de lectura de la biblioteca del ITM"/>
 
 El espacio físico de la biblioteca se compone de:
 - Sala principal de lectura: equipada con 2 ordenadores de consulta
@@ -53,8 +54,8 @@ El espacio físico de la biblioteca se compone de:
 - Depósito
 - Fondo antiguo: el cuál está separado del resto de áreas de la biblioteca
 
-<img src="/assets/images/" class="imagen" alt="Vista de la sala de lectura de la biblioteca del ITM"/>
-<img src="/assets/images/deposito.jpeg" class="imagen" alt="Vista del depósito de la biblioteca del ITM"/>
+<!--<img src="/assets/images/" class="imagen" alt="Vista de la sala de lectura de la biblioteca del ITM"/>-->
+<img src="/assets/images/deposito.jpeg" class="imagen2" alt="Vista del depósito de la biblioteca del ITM"/>
 
 La **biblioteca del ITM** permite a cualquier persona la consulta en sala de las obras de su colección (salvo documentos pertenecientes al fondo antiguo y demás excepciones), estando el préstamo reservado para estudiantes y profesores del Instituto, a lo que habría que añadir profesorado de la **Universidad de Murcia**, institución educativa con la que la biblioteca tiene firmado un convenio de colaboración. No resulta necesario disponer de carné de ningún tipo, sino que el préstamo se lleva a cabo mediante la cumplimentación de fichas.
 
