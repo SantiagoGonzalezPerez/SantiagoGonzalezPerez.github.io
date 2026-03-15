@@ -20,8 +20,8 @@ excerpt: "Comentario del proceso técnico que llevo a cabo en la biblioteca dond
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 40%;
-        height: 40%;
+        width: 50%;
+        height: 50%;
     }
 
     .imagenes {
@@ -43,7 +43,8 @@ Hace ya más de 1 mes que ejerzo como bibliotecario del **Instituto Teológico d
 
 ## La biblioteca del ITM
 
-Ubicada en el **Instituto Teológico de Murcia**, edificio anexo (por la fachada oeste) al campus de la Merced de la **Universidad de Murcia (UMU)**, se trata de una biblioteca especializada que da soporte educativo y de investigación al profesorado y alumnado del Instituto.<br>
+Ubicada en el **Instituto Teológico de Murcia**, edificio anexo (por la fachada oeste) al campus de la Merced de la **Universidad de Murcia (UMU)**, se trata de una biblioteca especializada que da soporte educativo y de investigación al profesorado y alumnado del Instituto.
+
 Dada la entidad a la que pertenece, su colección se especializa en teología y temas afines, contando con una gran cantidad de obras que versan sobre franciscanismo (corriente y orden a la que pertenece el propio Instituto), historia de la religión, marianismo, textos sagrados, educación, arte religioso, etcétera. Casi la totalidad de su colección está compuesta por materiales bibliográficos, los cuales gozan de una mayor representación las monografías, publicaciones periódicas y, sobre todo, obras de referencias tales como diccionarios, enciclopedias o glosarios. Pese a su especialización temática también hay presencia de obras de la literatura universal, historia no religiosa, psicología, partituras, etcétera.
 
 <img src="/assets/images/enciclopedia.jpeg" class="imagen2" alt="Vista de enciclopedias expuestas en la sala de lectura de la biblioteca del ITM"/>
