@@ -28,6 +28,9 @@
                 <li class="menu-hamburguesa"><a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a></li>
             </ul>
         </nav>
+            <div id="traductor-contenedor">
+                <div id="google_translate_element"></div>
+            </div>
     </header>
 
     <main>
@@ -52,30 +55,26 @@
     </main>
 
     <script>
+    // Menú hamburguesa (móvil)
+    function toggleMenu() {
+        var links = document.getElementById("menu-links");
+        links.className = links.className === "" ? "responsive" : "";
+    }
 
-        function toggleMenu() {
-            var links = document.getElementById("menu-links");
-            if (links.className === "") {
-                links.className += "responsive";
-            } else {
-                links.className = "";
-            }
-        }
-
-        const palabras = ['Jornadas', 'Simposios',];
-        let indiceActual = 0;
-        const spanPalabra = document.getElementById('palabra-rotativa');
-
-        setInterval(() => {
-            spanPalabra.classList.add('fade-out');
-
-            setTimeout(() => {
-                indiceActual = (indiceActual + 1) % palabras.length;
-                spanPalabra.textContent = palabras[indiceActual];
-                spanPalabra.classList.remove('fade-out');
-            }, 500);
-
-        }, 3000);
+    // Google Translate
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {
+                pageLanguage: 'es',
+                includedLanguages: 'en,fr,de,it,pt,zh-CN,ja,ar',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            },
+            'google_translate_element'
+        );
+    }
     </script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 </body>
 </html>
