@@ -37,15 +37,15 @@ excerpt: "Comentario del proceso técnico que llevo a cabo en la biblioteca dond
     }
 </style>
 
-Hace ya más de 1 mes que ejerzo como bibliotecario del **Instituto Teológico de Murcia (ITM)** y la verdad es que no podría estar más contento por la cantidad de valiosos aprendizajes que estoy adquiriendo. Y es que durante todo este tiempo he podido comprender y ejecutar el grueso del proceso técnico que se lleva a cabo con respecto a la colección de la **bibliotecas del ITM** (salvo particularidades eventuales). He podido llevar a la práctica gran parte de lo estudiado, comprobando la diferencia entre teoría y práctica; mi objetivo con esta entrada es resumir, sin entrar en muchos detalles, el proceso de trabajo que llevo a cabo en mi día a día.
+Hace ya más de 1 mes que ejerzo como bibliotecario del **Instituto Teológico de Murcia (ITM)** y la verdad es que no podría estar más contento por la cantidad de valiosos aprendizajes que estoy adquiriendo. Y es que durante todo este tiempo he podido comprender y ejecutar el grueso del proceso técnico que se lleva a cabo con respecto a la colección de la **biblioteca del ITM**; llevando a la práctica gran parte de lo estudiado. Mi objetivo con esta entrada es resumir, sin entrar en muchos detalles, el proceso de trabajo que llevo a cabo en mi día a día.
 
 <img src="/assets/images/itm.png" class="imagen" alt="Foto del edificio del ITM, exterior"/>
 
 ## La biblioteca del ITM
 
-Ubicada en el **Instituto Teológico de Murcia**, edificio anexo (por la fachada oeste) al campus de la Merced de la **Universidad de Murcia (UMU)**, se trata de una biblioteca especializada que da soporte educativo y de investigación al profesorado y alumnado del Instituto.
+Ubicada en el **Instituto Teológico de Murcia**, edificio anexo al campus de la Merced de la **Universidad de Murcia (UMU)**, se trata de una biblioteca especializada que da soporte educativo y de investigación al profesorado y alumnado del Instituto.
 
-Dada la entidad a la que pertenece, su colección se especializa en teología y temas afines, contando con una gran cantidad de obras que versan sobre franciscanismo (corriente y orden a la que pertenece el propio Instituto), historia de la religión, marianismo, textos sagrados, educación, arte religioso, etcétera. Casi la totalidad de su colección está compuesta por materiales bibliográficos, los cuales gozan de una mayor representación las monografías, publicaciones periódicas y, sobre todo, obras de referencias tales como diccionarios, enciclopedias o glosarios. Pese a su especialización temática también hay presencia de obras de la literatura universal, historia no religiosa, psicología, partituras, etcétera.
+Dada la entidad a la que pertenece, su colección se especializa en teología y temas afines, contando con una gran cantidad de obras que versan sobre franciscanismo (corriente y orden a la que pertenece el propio Instituto), historia de la religión, marianismo, textos sagrados, educación, arte religioso, etcétera. Casi la totalidad de su colección está compuesta por materiales bibliográficos, de los cuales gozan de una mayor representación las monografías, publicaciones periódicas y, sobre todo, obras de referencias tales como diccionarios, enciclopedias o glosarios. Pese a su especialización temática también hay presencia de obras de la literatura universal, historia no religiosa, psicología, etcétera. También hay presencia de materiales especiales tales como partituras, CD's o fotografías.
 
 <img src="/assets/images/enciclopedia.jpeg" class="imagen2" alt="Vista de enciclopedias expuestas en la sala de lectura de la biblioteca del ITM"/>
 
@@ -58,15 +58,15 @@ El espacio físico de la biblioteca se compone de:
 <!--<img src="/assets/images/" class="imagen" alt="Vista de la sala de lectura de la biblioteca del ITM"/>-->
 <img src="/assets/images/deposito.jpeg" class="imagen2" alt="Vista del depósito de la biblioteca del ITM"/>
 
-La **biblioteca del ITM** permite a cualquier persona la consulta en sala de las obras de su colección (salvo documentos pertenecientes al fondo antiguo y demás excepciones), estando el préstamo reservado para estudiantes y profesores del Instituto, a lo que habría que añadir profesorado de la **Universidad de Murcia**, institución educativa con la que la biblioteca tiene firmado un convenio de colaboración. No resulta necesario disponer de carné de ningún tipo, sino que el préstamo se lleva a cabo mediante la cumplimentación de fichas.
+La **biblioteca del ITM** permite a cualquier persona la consulta en sala de las obras de su colección (salvo documentos pertenecientes al fondo antiguo y demás excepciones), estando el préstamo reservado para estudiantes y profesores del Instituto, a lo que habría que añadir profesorado de la **Universidad de Murcia**, institución educativa con la que la biblioteca mantiene un convenio de colaboración. No resulta necesario disponer de carné de ningún tipo, sino que el préstamo se lleva a cabo mediante la cumplimentación de las fichas correspondientes.
 
 ## Catalogación
 
 El convenio de colaboración anteriormente mencionado cobra una importancia mayúscula a la hora de llevar a cabo el proceso técnico en la biblioteca del ITM, pues la biblioteca no sólo es partícipe del propio catálogo de la Universidad de Murcia, **Catálogo ALBA**, sino que además se guía por las mismas directrices a la hora de catalogar y elaborar los registros bibliográficos. El propio Instituto está reconocido como una de las sucursales de la biblioteca universitaria en la interfaz de búsqueda de su catálogo. Consecuencia de ello es que la biblioteca del ITM utilice el mismo SIGB que la biblioteca general universitaria: **Absysnet**.
 
-Por ello, el primer paso de mi rutina de trabajo (en lo que a efectos de catalogar se refiere) consiste en comprobar si existe ya un registro creado de la obra sobre la que estoy trabajando en el catálogo combinado de **Absysnet**. En caso afirmativo simplemente capturo el registro y adapto/modifico los campos que creo convenientes; en caso negativo procedo con la catalogación vía creación de un nuevo registro.
+Por ello, el primer paso de mi rutina de trabajo (en lo que a efectos de catalogar se refiere) consiste en comprobar si existe ya un registro creado de la obra sobre la que estoy trabajando en el catálogo combinado de **Absysnet**. En caso afirmativo simplemente capturo el registro y adapto los campos que creo convenientes; en caso negativo procedo con la catalogación vía creación de un nuevo registro.
 
-Desde la propia biblioteca universitaria se nos insta a seguir su propio documento de proceso técnico y a la consignación, en formato **MARC21**, de unos datos concretos para considerar el registro como suificiente. Dichos datos se pueden obtener limitándose al uso de los siguientes campos, de forma general:
+Desde la propia biblioteca universitaria se nos insta a seguir su propio documento de proceso técnico y a la consignación, en formato **MARC21**, de unos datos concretos para considerar el registro como válido. Dichos datos se pueden obtener limitándose al uso de los siguientes campos, de forma general:
 - T008
 - T020 ISBN
 - T035 Catalogador
@@ -94,7 +94,7 @@ Para incorporar al catálogo el registro creado es necesario cumplimentar cierto
 - Signatura
 - Número de control
 
-Algunos de los datos anteriores, como es el caso del código de barras o la signatura, han de obtenerse de forma externa al uso del SIGB. Para el código de barras simplemente escogemos uno de entre los múltiples adhesivos disponibles, mientras que para la elección de la signatura resulta necesario bajar a depósito y ver que parte temática encaja con la obra. Una vez discernida esta vemos entre los estantes del compactus en cuestión aquellos que presentan hueco libre y, que razón de altura y anchura, permiten colocar el ejemplar. Una vez se ha hecho esto se puede proceder a apuntar y tachar los datos identificativos de la publicación en el libro de registro.
+Algunos de los datos anteriores, como es el caso del código de barras o la signatura, han de obtenerse de forma externa al uso del SIGB. Para el código de barras simplemente escogemos uno de entre los múltiples adhesivos disponibles, mientras que para la elección de la signatura resulta necesario comprobar en el depósito si existe algún espacio libre dentro del o los compactus que encajana temáticamente con el contenido del material catalogado. Una vez se ha hecho esto se puede proceder a apuntar y tachar los datos identificativos de la publicación en el libro de registro.
 
 ## Dificultades
 
