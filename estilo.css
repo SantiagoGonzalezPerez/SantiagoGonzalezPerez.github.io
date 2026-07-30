@@ -413,6 +413,14 @@ main {
     transition: opacity 0.5s ease-in-out;
 }
 
+#enlacearticulos {
+    color: #285835;
+}
+
+#enlacearticulos:hover {
+    color: #285835;
+}
+
 .texto-adicional-encabezado a {
     color: inherit;
     text-decoration: underline;
