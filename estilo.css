@@ -555,6 +555,41 @@ main {
     background-color: #c7c5c5;
 }
 
+/* Responsive: móviles y pantallas pequeñas */
+@media (max-width: 600px) {
+    .lecturas-seccion-libros {
+        padding: 0 1rem;
+    }
+
+    .libro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .portada-libro,
+    #portadaancho {
+        flex: 0 0 auto;
+        width: 60%;
+        max-width: 200px;
+    }
+
+    .libro-info {
+        width: 100%;
+        max-width: 320px;
+        text-align: left;
+    }
+
+    .titulo-libro {
+        max-width: 100%;
+    }
+}
+
 
 
 /*Blog*/
